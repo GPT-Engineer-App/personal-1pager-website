@@ -13,6 +13,15 @@ const Navigation = () => {
       <Link as={RouterLink} to="#contact">
         Contact
       </Link>
+      <Link href="https://linkedin.com/in/johndoe" isExternal>
+        LinkedIn
+      </Link>
+      <Link href="https://github.com/johndoe" isExternal>
+        GitHub
+      </Link>
+      <Link href="https://twitter.com/johndoe" isExternal>
+        Twitter
+      </Link>
     </HStack>
   );
 };
